@@ -1,0 +1,54 @@
+{
+  "name": "ld-server",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "test": "jest",
+    "start": "tsc && node build/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "koa": "^2.12.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-parameter": "^3.0.1",
+    "koa-router": "^8.0.8",
+    "mysql2": "^2.1.0",
+    "request": "^2.88.2",
+    "sequelize": "^5.21.10",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@types/jest": "^25.2.3",
+    "@types/koa": "^2.11.3",
+    "@types/koa-bodyparser": "^4.3.0",
+    "@types/koa-router": "^7.4.1",
+    "@types/request": "^2.48.5",
+    "@types/socket.io": "^2.1.6",
+    "@types/supertest": "^2.0.9",
+    "babel-jest": "^26.0.1",
+    "jest": "^26.0.1",
+    "sequelize-cli-typescript": "^3.2.0-c",
+    "supertest": "^4.0.2",
+    "ts-jest": "^26.0.0",
+    "typescript": "^3.9.3"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.ts$": "ts-jest"
+    },
+    "testRegex": "\\.test\\.ts$",
+    "moduleFileExtensions": [
+      "ts",
+      "js"
+    ],
+    "globals": {
+      "ts-jest": {
+        "enableTsDiagnostics": true
+      }
+    }
+  }
+}
