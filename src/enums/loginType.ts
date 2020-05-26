@@ -1,6 +1,6 @@
 enum LoginTypes {
   NAVER,
-  KAKAO
+  KAKAO,
 }
 
 export default LoginTypes;

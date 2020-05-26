@@ -23,7 +23,7 @@ class UserInformationResponse {
 }
 
 function getUserInformation(accessToken: string): UserInformationResponse {
-  let option = {
+  const option = {
     url: "https://kapi.kakao.com/v2/user/me",
     method: "GET",
     headers: {

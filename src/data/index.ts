@@ -27,8 +27,8 @@ sequelize
   });
 
 
-let basename = path.basename(__filename);
-let db: any = {};
+const basename = path.basename(__filename);
+const db: any = {};
 
 // fs.readdirSync(__dirname)
 //   .filter(file => {
@@ -37,7 +37,7 @@ let db: any = {};
 //     );
 //   })
 //   .forEach(file => {
-//     var model = sequelize["import"](path.join(__dirname, file));
+//     const model = sequelize["import"](path.join(__dirname, file));
 //     db[model.name] = model;
 //   });
 
